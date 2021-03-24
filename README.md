@@ -1,12 +1,11 @@
-# apprentice-minder
-Forecasting, Retraining, and API components of the Apprentice Minder Project for the NSWBC
+# Flask API Template
+start here
 
 # How to use GitHub
 Check out my command [line cheat sheet](https://github.com/aserravalle/command-line-cheat-sheet/blob/main/README.md)
 
 **Clone repo and open master in VS Code**
 ```
-cd "C:\Users\Ariel\Google Drive\Work\kuse\Finder Minder Phase 1\"
 git clone https://github.com/aserravalle/apprentice-minder
 cd apprentice-minder
 code .
@@ -15,7 +14,6 @@ code .
 
 Requires cloned repo
 ```
-cd "C:\Users\Ariel\Google Drive\Work\kuse\Finder Minder Phase 1\apprentice-minder"
 git checkout Ariel/BranchName
 code .
 ```
@@ -23,7 +21,6 @@ code .
 
 Requires cloned repo
 ```
-cd "C:\Users\Ariel\Google Drive\Work\kuse\Finder Minder Phase 1\apprentice-minder"
 git checkout -b Ariel/BranchName
 code .
 ```
@@ -35,12 +32,12 @@ pip install -r requirements.txt
 ```
 **Run flask**
 ```
-set FLASK_APP="C:\Users\Ariel\Google Drive\Work\kuse\Finder Minder Phase 1\apprentice-minder\app.py"
+set FLASK_APP="C:\Users\repo\app.py"
 flask run
 ```
 **Run tests**
 ```
-set PYTHONPATH="C:\Users\Ariel\Google Drive\Work\kuse\Finder Minder Phase 1\apprentice-minder"
+set PYTHONPATH="C:\Users\repo"
 python -m unittest .
 ```
 **Push changes to git**
