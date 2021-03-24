@@ -6,7 +6,7 @@ Check out my command [line cheat sheet](https://github.com/aserravalle/command-l
 
 **Clone repo and open master in VS Code**
 ```
-git clone https://github.com/aserravalle/apprentice-minder
+git clone https://github.com/aserravalle/api-template
 cd apprentice-minder
 code .
 ```
